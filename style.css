@@ -137,6 +137,7 @@ body > .info {
   justify-content: space-between;
   border-top: 1px solid var(--grey-light-color);
   border-bottom: 1px solid var(--grey-light-color);
+  padding: var(--padding) 0;
 }
 
 .channel .metadata {
@@ -147,7 +148,7 @@ body > .info {
 .channel .metadata img {
   width: var(--avatar-size);
   height: var(--avatar-size);
-
+  margin: 0 var(--padding);
   border-radius: 50%;
 }
 
